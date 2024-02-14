@@ -17,15 +17,14 @@ O AdvancedNote é um aplicativo desenvolvido em React.js com TypeScript, utiliza
 
 ### 1. Clone este repositório:
 
-git clone https://github.com/seu-usuario/AdvancedNote.git
-cd AdvancedNote
+```git clone https://github.com/VinicCogo/AdvancedNote.git```
 
 
 ### 2. Instale as dependências:
-npm install
+```npm install```
 
 ### 3.Inicie o aplicativo:
-npm run dev
+```npm run dev```
 
 O aplicativo estará disponível em http://localhost:3000.
 
@@ -37,7 +36,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issue
 
 Este projeto está licenciado sob a MIT License.
 
-Lembre-se de substituir `"seu-usuario"` no URL do clone pelo seu nome de usuário do GitHub ou pela URL correta do seu repositório. Além disso, adapte a informação conforme necessário para refletir com precisão os detalhes do seu projeto.
-
-Se precisar de mais alguma coisa ou quiser ajustar algum detalhe, estou à disposição!
 ```bash
