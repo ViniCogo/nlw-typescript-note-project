@@ -17,14 +17,20 @@ O VoiceRecordingNotes é um aplicativo desenvolvido em React.js com TypeScript, 
 
 ### 1. Clone este repositório:
 
-```git clone https://github.com/VinicCogo/AdvancedNote.git```
+```bash
+git clone https://github.com/VinicCogo/AdvancedNote.git
+```
 
 
 ### 2. Instale as dependências:
-```npm install```
+```bash
+npm install
+```
 
 ### 3.Inicie o aplicativo:
-```npm run dev```
+```bash
+npm run dev
+```
 
 O aplicativo estará disponível em http://localhost:3000.
 
