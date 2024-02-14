@@ -35,5 +35,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issue
 ## Licença
 
 Este projeto está licenciado sob a MIT License.
-
-```bash
