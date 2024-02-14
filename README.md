@@ -1,7 +1,7 @@
-# AdvancedNote
+# VoiceRecordingNotes
 
 ## Descrição
-O AdvancedNote é um aplicativo desenvolvido em React.js com TypeScript, utilizando Tailwind CSS. Sua principal função é permitir aos usuários gravar e gerenciar notas. Além disso, oferece a funcionalidade de converter áudio em texto, proporcionando uma experiência mais versátil e eficiente na criação de anotações.
+O VoiceRecordingNotes é um aplicativo desenvolvido em React.js com TypeScript, utilizando Tailwind CSS. Sua principal função é permitir aos usuários gravar e gerenciar notas. Além disso, oferece a funcionalidade de converter áudio em texto, proporcionando uma experiência mais versátil e eficiente na criação de anotações.
 
 ## Funcionalidades
 - **Gravação de Notas:** Os usuários podem digitar notas diretamente no aplicativo.
