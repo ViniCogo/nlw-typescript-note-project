@@ -53,11 +53,9 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
         setIsRecording(true)
         setShouldShowOnboarding(false)
 
-        
         const SpeechRecognitionAPI = window.SpeechRecognition || window.webkitSpeechRecognition
     
         speechRecognition = new SpeechRecognitionAPI()
-    
         speechRecognition.lang = 'pt-BR'
         speechRecognition.continuous = true
         speechRecognition.maxAlternatives = 1
@@ -73,7 +71,6 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
 
         speechRecognition.onerror = (event) => {
             console.log(event);
-            
         }
 
         speechRecognition.start()
@@ -107,7 +104,6 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
                     </dialog.Close>
 
                     <form className="flex-1 flex flex-col">
-
                         <div className="flex flex-1 flex-col gap-3 p-5">
                             <span className='text-sm font-medium text-slate-300'>
                                 Adicionar nota
@@ -129,9 +125,9 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
 
                         {isRecording ? (
                             <button
-                            type="button"
-                            onClick={handleStopRecording}
-                            className="w-full flex items-center justify-center gap-2 bg-slate-900 py-4 text-center text-sm text-slate-300 outline-none font-medium hover:text-slate-100"
+                                type="button"
+                                onClick={handleStopRecording}
+                                className="w-full flex items-center justify-center gap-2 bg-slate-900 py-4 text-center text-sm text-slate-300 outline-none font-medium hover:text-slate-100"
                             >
                                 <div className="size-3 rounded-full bg-red-500 animate-bounce"/>
                                 Gravando! (CLique p/ interromper)
@@ -148,7 +144,6 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
                     </form>
                 </dialog.Content>
             </dialog.Portal>
-
         </dialog.Root>
     )
 }
